@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and OS specific files
+.idea/
+.vscode/
+*.DS_Store
+
+# Large data files
+# We add an exception for the smaller CSVs we need for the app
+*.csv
+!maharashtra_2024_daily_energy_forecasting_dataset.csv
+!renewable_energy_forecast_final.csv
+
+# Saved models
+*.json
+!best_xgb_model.json
+
+*.pkl
+!training_columns.pkl
+
+# PDF files
+*.pdf
